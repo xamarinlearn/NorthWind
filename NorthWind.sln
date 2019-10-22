@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NorthWind.API", "NorthWind.API\NorthWind.API.csproj", "{99776628-61ED-4610-91BC-BDD0DD518287}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.ClientXF.Android", "NorthWind.ClientXF\NorthWind.ClientXF.Android\NorthWind.ClientXF.Android.csproj", "{B29826AA-6710-4559-8E1B-0C440BB1DC0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.ClientXF", "NorthWind.ClientXF\NorthWind.ClientXF\NorthWind.ClientXF.csproj", "{CFBF3528-37A9-4D90-A3C4-B7180717D544}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servidor", "Servidor", "{7FCAE7E5-D56E-4514-A0FD-2D56F302EDE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{3772F236-8CDB-42F4-B381-19077CF5E25E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mobil", "Mobil", "{4F085C6E-A03F-41F3-9D4D-D7B0E171A18A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B4B1CF7E-8E78-41DC-BA2A-EA953C225CD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99776628-61ED-4610-91BC-BDD0DD518287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99776628-61ED-4610-91BC-BDD0DD518287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99776628-61ED-4610-91BC-BDD0DD518287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99776628-61ED-4610-91BC-BDD0DD518287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B29826AA-6710-4559-8E1B-0C440BB1DC0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29826AA-6710-4559-8E1B-0C440BB1DC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B29826AA-6710-4559-8E1B-0C440BB1DC0C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B29826AA-6710-4559-8E1B-0C440BB1DC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B29826AA-6710-4559-8E1B-0C440BB1DC0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B29826AA-6710-4559-8E1B-0C440BB1DC0C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CFBF3528-37A9-4D90-A3C4-B7180717D544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFBF3528-37A9-4D90-A3C4-B7180717D544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFBF3528-37A9-4D90-A3C4-B7180717D544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFBF3528-37A9-4D90-A3C4-B7180717D544}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99776628-61ED-4610-91BC-BDD0DD518287} = {7FCAE7E5-D56E-4514-A0FD-2D56F302EDE0}
+		{B29826AA-6710-4559-8E1B-0C440BB1DC0C} = {4F085C6E-A03F-41F3-9D4D-D7B0E171A18A}
+		{CFBF3528-37A9-4D90-A3C4-B7180717D544} = {4F085C6E-A03F-41F3-9D4D-D7B0E171A18A}
+		{7FCAE7E5-D56E-4514-A0FD-2D56F302EDE0} = {B4B1CF7E-8E78-41DC-BA2A-EA953C225CD3}
+		{3772F236-8CDB-42F4-B381-19077CF5E25E} = {B4B1CF7E-8E78-41DC-BA2A-EA953C225CD3}
+		{4F085C6E-A03F-41F3-9D4D-D7B0E171A18A} = {3772F236-8CDB-42F4-B381-19077CF5E25E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B5F77C8-2C95-46DF-B270-823B6AD3DA1B}
+	EndGlobalSection
+EndGlobal
