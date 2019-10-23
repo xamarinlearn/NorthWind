@@ -13,5 +13,12 @@ namespace NorthWind.ClientXF
         {
             InitializeComponent();
         }
+
+        private async void BtnGetProducts_Clicked(object sender, EventArgs e)
+        {
+            Data.ProductManager PM = new Data.ProductManager();
+
+            listView.ItemsSource = await PM.GetAllProducts();
+        }
     }
 }

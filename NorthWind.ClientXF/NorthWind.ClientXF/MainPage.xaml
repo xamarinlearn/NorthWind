@@ -5,10 +5,26 @@
              x:Class="NorthWind.ClientXF.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Label Text="LISTA DE PRODUCTOS:"
+               FontSize="Large"
+               HorizontalOptions="CenterAndExpand"/>
+        <Button Text="Products"
+                x:Name="btnGetProducts"
+                Clicked="BtnGetProducts_Clicked"/>
+        <ListView x:Name="listView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding ID}"/>
+                                <Label Text="{Binding Name}"/>
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </StackLayout>
 
 </ContentPage>
