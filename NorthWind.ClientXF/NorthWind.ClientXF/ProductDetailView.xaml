@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NorthWind.ClientXF.ProductDetailView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="DETALLE DE PRODUCTO:" 
+                  FontSize="Large"
+                  HorizontalOptions="CenterAndExpand"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="ID:"/>
+                <Entry Text="{Binding ID}" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Name:"/>
+                <Entry Text="{Binding Name}" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Price:"/>
+                <Entry Text="{Binding Price}" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Units:"/>
+                <Entry Text="{Binding UnitsInStock}" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Delete" x:Name="btnDelete" Clicked="BtnDelete_Clicked"/>
+                <Button Text="Update" x:Name="btnUpdate" Clicked="BtnUpdate_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+            
+    </ContentPage.Content>
+</ContentPage>
