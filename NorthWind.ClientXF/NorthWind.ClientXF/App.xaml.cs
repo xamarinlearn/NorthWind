@@ -11,7 +11,7 @@ namespace NorthWind.ClientXF
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPageMDP());
         }
 
         protected override void OnStart()
