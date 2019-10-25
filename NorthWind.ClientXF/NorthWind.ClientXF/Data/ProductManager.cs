@@ -9,7 +9,7 @@ namespace NorthWind.ClientXF.Data
 {
    public class ProductManager
     {
-        const string Url = "{servidor}/api/products/";
+        const string Url = "http://192.168.1.5:51953/api/products/";
 
         private  HttpClient GetClient()
         {
